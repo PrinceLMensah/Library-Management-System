@@ -1,0 +1,69 @@
+# Library system
+
+## **Project Overview:**
+
+The Library Management System aims to streamline and automate the processes involved in managing a library's resources. The system will provide an efficient way to manage books, track user transactions, and ensure a smooth borrowing and returning process.
+
+Skills used: SQL,MSSQL
+
+## **Key Features:**
+
+### **1. Book Management:**
+
+- Add, edit, and delete book records.
+- Track book details such as title, author, category, and availability.
+
+### **2. User Management:**
+
+- Maintain user records with information such as name, contact details, and a unique card number.
+- Allow users to register and update their information.
+
+### **3. Transaction Management:**
+
+- Record transactions for book check-out and return.
+- Associate transactions with users and books.
+- Track check-out and return dates.
+
+## Database Schema
+
+**Books -** 
+
+**Transaction-** 
+
+**Users- A user table that will be used to track all the** 
+
+### **Users Table**
+
+**User_id**
+
+Firstname
+
+Lastname
+
+Email
+
+Card Number
+
+### **Book Table**
+
+**Book_id** 
+
+Title
+
+Author
+
+Category
+
+Availability
+
+### **Transaction Table**
+
+Transaction_id
+
+User_id
+
+Book_id
+
+Check_out_date
+
+Check_in_date
